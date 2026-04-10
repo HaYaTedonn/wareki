@@ -1,0 +1,27 @@
+{
+  "name": "@hayatedonn/wareki",
+  "version": "0.1.0",
+  "description": "西暦と和暦（令和・平成・昭和・大正・明治）を相互変換する依存ゼロのライブラリ。改元日は ICU/Intl 準拠。",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["wareki", "japanese-era", "和暦", "元号", "令和", "reiwa", "gengo", "date", "japan", "zero-dependency"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaYaTedonn/wareki.git"
+  },
+  "author": "Hayate Suzuki",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "sideEffects": false
+}
