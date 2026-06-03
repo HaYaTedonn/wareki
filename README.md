@@ -8,12 +8,12 @@
 
 ## インストール
 ```bash
-npm install @hayatedonn/wareki
+npm install @suzukihayate/wareki
 ```
 
 ## 使い方
 ```js
-import { toWareki, format, parse, toGregorianYear } from '@hayatedonn/wareki';
+import { toWareki, format, parse, toGregorianYear } from '@suzukihayate/wareki';
 
 format(new Date(2024, 5, 2));          // "令和6年6月2日"
 format('2019-05-01');                  // "令和元年5月1日"
